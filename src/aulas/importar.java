@@ -18,8 +18,9 @@ public class importar {
         System.out.println("Digite seu nome: ");
         var test = input.nextLine();
 
-        System.out.println("Seu nome é: "+test);
 
+        System.out.println("Seu nome é: "+test);
+        input.close();
 
 
 
