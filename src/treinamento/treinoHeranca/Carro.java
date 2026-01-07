@@ -1,8 +1,9 @@
 package treinamento.treinoHeranca;
 
-public class Carro extends Automovel {
+public class Carro extends Veiculo {
     private boolean airbag = false;
 
+    // Metodo de ligar arbags par a segurança
     public void statusArbags() {
         airbag = ! airbag;
         if (airbag) {System.out.println(" Arbags acionados");}

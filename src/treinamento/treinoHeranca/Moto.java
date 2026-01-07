@@ -1,8 +1,8 @@
 package treinamento.treinoHeranca;
 
-public class Moto extends Automovel {
+public class Moto extends Veiculo {
     private boolean capacete = false;
-
+// Metodo  de colocar o capacete para ter maior segurança
     public void colocarCapacete() {
         capacete = ! capacete;
         if (capacete) {
