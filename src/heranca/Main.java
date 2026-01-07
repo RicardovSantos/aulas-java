@@ -6,8 +6,13 @@ import java.util.Locale;
 public class Main {
 
     static void main(String[] args) {
-       Locale brasil = new Locale("pt","BR");
-       NumberFormat formatar = NumberFormat.getCurrencyInstance(brasil);
+        Locale brasil = new Locale("pt","BR");
+        NumberFormat formatar = NumberFormat.getCurrencyInstance(brasil);
+      // Locale brasil = new Locale("pt","BR");
+      // NumberFormat formatar = NumberFormat.getCurrencyInstance(brasil);
+
+
+
 // intanciação dos objetos (criação).
    Funcionario  f1 = new Funcionario();
    Aluno a1 = new Aluno();

@@ -10,11 +10,15 @@ public class Main {
 
     System.out.println("\n    Motor --> "+c1.isMotor()+" e Arbags --> "+ c1.isAirbag()); // mostrando que estão desligados e desativados
     System.out.print(c1.getMarca()+" "+c1.getNome()+" ");c1.motorVirarChave();c1.statusArbags(); // ligando motor e arbags
+    c1.ligarAr();
+    c1.ligarTurbo();
     c1.acelerar();  // acelerando
     c1.motorVirarChave(); // test. tentando desligar,
     System.out.print(c1.getMarca()+" "+c1.getNome()+" velocidade atual "+c1.getAceleracao()+"Kms ");
     c1.motorVirarChave();
     c1.desacelerar();
+    c1.parar();
+    c1.desligarAr();
     System.out.print(c1.getMarca()+" "+c1.getNome()+" velocidade atual "+c1.getAceleracao()+"Kms ");
     c1.motorVirarChave();
 
